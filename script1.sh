@@ -21,6 +21,9 @@ then
 elif [ $age -gt 19 ];
 then
 	echo "Adult"
+elif [ $age -gt 60 ];
+then
+	echo "Oldage"
 else
 	echo "Enter Valid Age number"
 fi
