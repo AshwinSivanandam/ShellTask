@@ -3,7 +3,7 @@ echo "Enter the username"
 read username1
 echo "Enter the password"
 read password1
-if [ $username1 = "admin" -a  $password1 = "Admin123" -o $username = "developer" -a $password = "JavaPython@123" ];
+if [ $username1 = "admin" -a  $password1 = "Admin123" -o $username1 = "developer" -a $password1 = "JavaPython@123" ];
 then
 	echo "Authentication successful"
 else
